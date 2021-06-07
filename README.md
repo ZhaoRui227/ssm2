@@ -4,27 +4,3 @@ CRUD
 
 使用SSM框架搭建的一个简单的员工信息管理系统，实现了基本的增删改查整个流程
 
-直接把war包放到tomcat的webapps目录下，重启即可运行
-系统架构
-
-业务架构
-功能分解
-
-    查询和分页显示
-    新增员工信息功能
-        数据校验，需要校验用户名和邮箱是否合法
-        前端使用jquery校验，后端使用JSR303
-    修改员工信息功能
-    单个删除员工
-    批量删除员工
-    使用Rest风格的URI
-    搜索功能
-
-技术点
-
-    基础框架：SpringMVC+Spring+MyBatis
-    数据库：MySQL
-    前端框架：BootStrap快速搭建
-    项目依赖管理：Maven
-    分页：pagehelper（Mybatis的工具）
-    逆向工程：MyBatis Generator
